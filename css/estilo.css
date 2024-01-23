@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.contenedor-padre {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los contenedores se envuelvan a la siguiente línea cuando no hay suficiente espacio */
+    justify-content: space-around; /* Distribuye los contenedores uniformemente en el eje principal */
+    margin: 20px;
+}
+
+.contenedor {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contenedor img {
+    max-width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* Mantener la proporción original de la imagen */
+}
+
+/* Puedes agregar estilos adicionales según tus necesidades */
